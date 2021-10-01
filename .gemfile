@@ -1,0 +1,13 @@
+# frozen_string_literal: true
+
+source ENV['GEM_SOURCE'] || 'https://rubygems.org'
+
+gem 'github_changelog_generator'
+gem 'metadata-json-lint'
+gem 'pry'
+gem 'puppet-strings'
+gem 'rubocop'
+gem 'rubocop-ast'
+gem 'rubocop-performance'
+gem 'rubocop-rspec'
+gem 'yard'

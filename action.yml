@@ -1,0 +1,12 @@
+name: 'PDK Release'
+description: 'Github Action for pdk release'
+inputs:
+  release-action:
+    description: 'What pdk release action to use'
+    required: true
+    default: 'prep'
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
+  args:
+    - ${{ inputs.release-action }}
