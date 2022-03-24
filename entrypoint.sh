@@ -1,5 +1,7 @@
 #!/bin/bash -l
 
+set -e
+
 cp /.gemfile "$HOME"/.gemfile
 
 cd "$GITHUB_WORKSPACE" || exit 1
@@ -11,4 +13,4 @@ if [ -n "$2" ]; then
     done
 fi
 
-/opt/puppetlabs/pdk/bin/pdk release "$1" --force
+/opt/puppetlabs/pdk/bin/pdk release $1 --force
