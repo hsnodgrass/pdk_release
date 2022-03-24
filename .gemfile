@@ -2,13 +2,4 @@
 
 source ENV['GEM_SOURCE'] || 'https://rubygems.org'
 
-gem 'github_changelog_generator'
 gem 'octokit', '= 4.21.0'
-gem 'metadata-json-lint'
-gem 'pry'
-gem 'puppet-strings'
-gem 'rubocop'
-gem 'rubocop-ast'
-gem 'rubocop-performance'
-gem 'rubocop-rspec'
-gem 'yard'
